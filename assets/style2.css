@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#website-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 40rem;
+}
+
+.siteDiv {
+    padding: 1rem;
+}
+
+.titleDiv {
+    font-size: 1.6rem;
+    color: blue;
+}
+
+.descriptionDiv {
+    color: grey;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
